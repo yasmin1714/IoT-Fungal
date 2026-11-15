@@ -1,0 +1,37 @@
+{
+    "broker": "broker.hivemq.com",
+    "port": 1883,
+    "topic": "iot-fungal/demo-7f3a/#",
+    "broker_connected": false,
+    "connection_status": "DISCONNECTED",
+    "last_connected": "2026-11-15T21:48:10+05:30",
+    "last_disconnected": "2026-11-15T23:42:39+05:30",
+    "last_packet_received": "2026-11-15T23:10:46+05:30",
+    "total_received": 70,
+    "accepted_packets": 70,
+    "rejected_packets": 0,
+    "nodes": {
+        "NODE_1": {
+            "packets_received": 18,
+            "last_seen": "2026-11-15T23:07:46+05:30",
+            "last_status": "WARNING",
+            "last_gas_response": 2230,
+            "reception_rate_per_minute": 3
+        },
+        "NODE_2": {
+            "packets_received": 19,
+            "last_seen": "2026-11-15T23:10:46+05:30",
+            "last_status": "WARNING",
+            "last_gas_response": 1485,
+            "reception_rate_per_minute": 3
+        },
+        "NODE_3": {
+            "packets_received": 33,
+            "last_seen": "2026-11-15T23:10:37+05:30",
+            "last_status": "HIGH ANOMALY",
+            "last_gas_response": 4035,
+            "reception_rate_per_minute": 10
+        }
+    },
+    "updated_at": "2026-11-15T23:42:39+05:30"
+}
